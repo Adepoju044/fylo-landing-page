@@ -87,6 +87,7 @@ header ul a {
 }
 .section-left .btn:hover {
     background-color: hsl(224, 93%, 38%);
+    transition: all 0.5s;
 }
 .section-right .image1 {
     width: 100%;
@@ -220,6 +221,7 @@ header ul a {
 }
 .started:hover {
     background-color: hsl(224, 93%, 38%);
+    transition: all 0.5s;
 }
 #footer {
     display: flex;
@@ -303,6 +305,15 @@ header ul a {
 }
 .contact:hover {
     color: hsl(224, 93%, 58%);
+}
+.my-name {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.my-name a {
+    text-decoration: none;
 }
 @media (max-width: 376px) {
     #header {
@@ -593,6 +604,16 @@ header ul a {
         color: hsl(240, 75%, 98%);
         transition: all ease-in-out 1s;
         max-height: 40px;
+    }
+    .last-footer {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .my-name {
+        text-align: center;
+        font-size: 20px;
     }
 }
 /*
