@@ -315,7 +315,7 @@ header ul a {
 .my-name a {
     text-decoration: none;
 }
-@media (max-width: 376px) {
+@media (max-width: 450px) {
     #header {
         display: flex;
         align-items: center;
@@ -336,8 +336,9 @@ header ul a {
         align-items: center;
         margin-left: 150px;
         justify-content: center;
-        padding: 1rem 10rem 1rem 10rem;
+        padding: 1rem 3rem 1rem 3rem;
         text-align: center;
+        width: 100%;
     }
     #section-1 .image1 {
         width: 500px;
@@ -411,9 +412,7 @@ header ul a {
         background-color: hsl(240, 75%, 98%);
         display: flex;
         padding: 6rem 20rem;
-        /*
-        width: 160%;
-        */
+        width: 170%;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
